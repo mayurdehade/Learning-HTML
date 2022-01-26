@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Attributes</title>
+</head>
+<body>
+    <!--Input Attributes-->
+
+    <form>
+        Enter Any Text:
+        <input type="text" value="Default Value">
+
+        <br><br>
+
+        Only Read Text:
+        <input type="text" value="Read Only" readonly>
+
+        <br><br>
+
+        Disabled Text:
+        <input type="text" value="Disabled Value" disabled>
+
+        <br><br>
+
+        Enter Text Here: <br>
+        <input type="text" value="without size With value Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, quasi.">
+        <br><br>
+        <input type="text" size="50" value="With size Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, quasi.">
+
+        <br><br>
+
+        Max length only ten character Here:
+        <input type="text" maxlength="10" >
+
+        <br><br>
+        
+        Min and Max length:
+        <input type="text" minlength="2" maxlength="5">
+
+        <br><br>
+
+        Step for increase size:
+        <input type="number" value="2" step="5">
+
+        <br><br>
+        
+        Autofocus:
+        <input type="text" autofocus>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+        
+    </form>
+
+    <br><br><br>
+    <h2>Autocomplete</h2>
+
+    <form action="" autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text"  name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br><br>
+        <input type="submit">
+    </form>
+
+    <br><br><br>
+
+    <h3>Image Submit Button</h3>
+    <form action="">
+        Enter Discription:
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="image" src="images/submit.png" height="100px" width="100px">
+    </form>
+
+    <br><br><br>
+
+    <h3>Form Selection Option</h3>
+    <form>
+        Select Any Option:
+        <select>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+        </select>
+    </form>
+
+    <br><br>
+
+    <h3>Option Group</h3>
+    <form>
+        Option Group:
+        <select>
+            <optgroup label="Car">
+                <option value="Tata">Tata</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Audi">Audi</option>
+            </optgroup>
+            <optgroup label="Bike">
+                <option value="Hero">Hero</option>
+                <option value="Bajaj">Bajaj</option>
+                <option value="Honda">Honda</option>
+            </optgroup>
+            <optgroup label="Bicycle">
+                <option value="Hero">Hero</option>
+                <option value="Sunami">Sunami</option>
+                <option value="Electro">Electro</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
