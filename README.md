@@ -1,6 +1,6 @@
 # Learning-HTML
-All files which I created during learning HTML 5
+All files that I created while revising HTML 5
 
-This HTML files is very useful for understanding HTML 5
+This HTML files is beneficial for understanding HTML 5
 
--By Mayur Dehade (Code Studio)
+-By Mayur Dehade
